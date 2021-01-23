@@ -4,6 +4,9 @@ import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
 import org.junit.Test;
 
+/**
+ * 单例模式测试用例
+ */
 public class SingletonTest {
 
     @Test

@@ -6,6 +6,9 @@ import static org.junit.Assert.assertThat;
 import static org.mockito.ArgumentMatchers.same;
 import org.junit.Test;
 
+/**
+ * 原型模式测试用例
+ */
 public class PrototypeTest {
 
     @Test
