@@ -1,7 +1,7 @@
 package org.jtznenic.creational.factory;
 
 /**
- * 具体产品1
+ * 具体产品2
  */
 public class ConcreateProduct2 implements IProduct {
 
