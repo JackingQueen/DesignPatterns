@@ -1,4 +1,4 @@
-package org.jtznenic.creational;
+package org.jtznenic.creational.singleton;
 
 /**
  * 通用单例设计模式代码
@@ -15,11 +15,6 @@ public class Singleton {
     public static Singleton getSingleton() {
 
         return singleton;
-
-    }
-
-    // 类中其他方法， 尽量是static
-    public static void doSomething() {
 
     }
 }
