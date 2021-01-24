@@ -10,7 +10,7 @@ import org.junit.Test;
  */
 public class ProxyTest {
     @Test
-    public void testRequest() {
+    public void testPorxy() {
         Proxy proxy = new Proxy(new RealSubject());
         ISubject subject = proxy;
         IProxy iProxy = proxy;

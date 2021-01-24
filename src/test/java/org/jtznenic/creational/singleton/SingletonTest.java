@@ -10,7 +10,7 @@ import org.junit.Test;
 public class SingletonTest {
 
     @Test
-    public void testGetSingleton() {
+    public void testSingleton() {
         Singleton singleton = Singleton.getSingleton();
         assertThat(singleton, notNullValue());
     }

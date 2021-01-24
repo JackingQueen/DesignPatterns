@@ -10,7 +10,7 @@ import org.junit.Test;
 public class AbstractFactoryTest {
 
     @Test
-    public void testCreateProduct() {
+    public void testFacotry() {
         IAbstractFactory factory1 = new ConcreateFactoryProduct1();
         IAbstractFactory factory2 = new ConcreateFactoryProduct2();
 

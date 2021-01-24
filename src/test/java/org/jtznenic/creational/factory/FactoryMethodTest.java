@@ -10,7 +10,7 @@ import org.junit.Test;
 public class FactoryMethodTest {
 
     @Test
-    public void testCreateProduct() {
+    public void testFacotry() {
         IFactory factory = new ConcreateFactory1();
         IProduct product1 = factory.createPrduct();
         assertThat(product1, notNullValue());

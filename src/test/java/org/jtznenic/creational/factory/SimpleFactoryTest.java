@@ -10,7 +10,7 @@ import org.junit.Test;
 public class SimpleFactoryTest {
 
     @Test
-    public void testMakeProduct() {
+    public void testFacotry() {
         IProduct product1 = SimpleFactory.makeProduct(ProductEnum.PRODUCT1);
         assertThat(product1, notNullValue());
         product1.show();
