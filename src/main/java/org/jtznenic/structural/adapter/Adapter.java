@@ -1,5 +1,8 @@
 package org.jtznenic.structural.adapter;
 
+/**
+ * 适配器角色
+ */
 public class Adapter implements ITarget {
     private Adaptee adaptee;
 
