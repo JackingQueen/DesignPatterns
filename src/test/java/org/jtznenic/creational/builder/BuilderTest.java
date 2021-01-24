@@ -2,7 +2,6 @@ package org.jtznenic.creational.builder;
 
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
-import static org.mockito.ArgumentMatchers.notNull;
 import org.junit.Test;
 
 /**

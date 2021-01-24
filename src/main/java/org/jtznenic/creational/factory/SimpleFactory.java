@@ -7,6 +7,8 @@ import java.lang.reflect.Constructor;
  */
 public class SimpleFactory {
 
+    private SimpleFactory() {}
+
     public static final String PRODUCT1 = "1";
     public static final String PRODUCT2 = "2";
 
