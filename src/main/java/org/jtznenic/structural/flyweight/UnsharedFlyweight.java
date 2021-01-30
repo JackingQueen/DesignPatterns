@@ -1,9 +1,5 @@
 package org.jtznenic.structural.flyweight;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-
 /**
  * 非享元角色
  */
